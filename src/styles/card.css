@@ -79,6 +79,31 @@ a:hover{
     transform: translateY(-3px) scale(1.05);
 }
 
+/* MAIN CTA BUTTON */
+.main-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background-color: #FFFFFF;
+    color: #024945;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.main-cta:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.main-cta i {
+    font-size: 18px;
+}
+
 /* TOOLTIP */
 .tooltip-text {
     position: absolute;
